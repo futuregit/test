@@ -3,7 +3,10 @@ const googleDatabase = [
     'souprecipes.com',
     'flowers.com',
     'roads.com',
-    'musclecars.com'
+    'musclecars.com',
+    'newcar.com',
+    'classiccars.com',
+    'vintagecars.com'
 ];
 
 const googleSearch = (searchInput) => {
@@ -13,4 +16,4 @@ const googleSearch = (searchInput) => {
     return matches.length > 3 ? matches.slice(0, 3) : matches;
 };
 
-console.log(googleSearch('soup'));
+console.log(googleSearch('cars'));
