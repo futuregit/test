@@ -31,4 +31,10 @@ const getChuck = async(fetch) => {
     };
 };
 
-getChuck(fetch)
+// getChuck(fetch)
+
+module.exports = {
+    getPeoplePromise,
+    getPeople,
+    getChuck
+};
